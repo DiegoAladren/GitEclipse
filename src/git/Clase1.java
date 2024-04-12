@@ -9,4 +9,8 @@ public class Clase1 {
 		n=a+a;
 		return n;
 	}
+	public int encontrarMaximo(int a, int b) {
+	    return Math.max(a, b);
+	}
+
 }
