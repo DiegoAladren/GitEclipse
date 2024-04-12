@@ -9,6 +9,7 @@ public class Clase3 {
 		return n;
 	}
 	
+
 	public int módulo() {
 		int n;
 		n=c%2;
@@ -24,6 +25,19 @@ public class Clase3 {
 	        }
 	    }
 	    return true;
+	}
+	public int división() {
+		int n;
+		n=c/2;
+		return n;
+	}
+	public int calcularFactorial(int n) {
+	    if (n == 0) {
+	        return 1;
+	    } else {
+	        return n * calcularFactorial(n - 1);
+	    }
+
 	}
 
 }
