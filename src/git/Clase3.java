@@ -8,4 +8,10 @@ public class Clase3 {
 		n=c*2;
 		return n;
 	}
+	
+	public int módulo() {
+		int n;
+		n=c%2;
+		return n;
+	}
 }
